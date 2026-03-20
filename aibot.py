@@ -13,7 +13,7 @@ PAID_USERS = {8617814640, 6944871953}
 
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Bot is Online on Cloud! Send me any topic to write.")
