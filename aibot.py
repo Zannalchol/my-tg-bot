@@ -13,7 +13,7 @@ ADMIN_ID = 8617814640
 
 # Gemini AI Setup
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('models/gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 PAID_USERS = {8617814640}
 
